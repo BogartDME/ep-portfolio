@@ -1,0 +1,60 @@
+body {
+  color: black;
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0%;
+}
+title {
+  color: rgb(13, 17, 17);
+  background-color: blue;
+}
+
+.nav {
+  text-align: end;
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  padding-right: 0px;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 12px;
+  flex-wrap: wrap;
+}
+
+.header {
+  color: rgb(50, 116, 174);
+  background-color: dimgrey;
+  flex-wrap: wrap;
+}
+
+h1 {
+  background-color: rgb(142, 15, 15);
+  height: 1in;
+  width: 300px;
+  padding-top: 0px;
+}
+
+ul {
+  align-items: center;
+  display: inline-flex;
+}
+
+h2 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.git {
+  align-items: flex-end;
+  color: black;
+  background-color: antiquewhite;
+}
