@@ -12,6 +12,7 @@ body {
   text-transform: normal;
   letter-spacing: normal;
 }
+
 title {
   color: rgb(13, 17, 17);
   background-color: blue;
@@ -36,6 +37,9 @@ title {
   flex-wrap: wrap;
 }
 
+.hero {
+}
+
 .header {
   color: dimgrey;
   background-color: dimgrey;
@@ -52,6 +56,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-size: 40px;
+  border: 5px solid goldenrod;
+  border-left: 0;
 }
 
 ul {
