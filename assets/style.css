@@ -6,10 +6,10 @@ title {
 .nav {
   text-align: end;
   text-decoration: none;
-  font-family: Cambria, serif;
-  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 54px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   text-transform: normal;
   letter-spacing: normal;
   line-height: 1.3em;
@@ -56,7 +56,7 @@ ul {
 
 body {
   color: black;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   padding: 0;
   margin: 0%;
   text-align: start;
@@ -67,6 +67,10 @@ body {
   font-weight: normal;
   text-transform: normal;
   letter-spacing: normal;
+}
+
+.row {
+  flex-wrap: wrap;
 }
 
 h2 {
