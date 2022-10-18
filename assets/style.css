@@ -1,3 +1,7 @@
+:root {
+  --red: rgb(142, 15, 15);
+}
+
 title {
   color: rgb(13, 17, 17);
   background-color: blue;
@@ -7,7 +11,7 @@ title {
   text-align: end;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 54px;
+  font-size: 40px;
   font-style: normal;
   font-weight: bold;
   text-transform: normal;
@@ -69,21 +73,23 @@ body {
   letter-spacing: normal;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
 .row {
   flex-wrap: wrap;
 }
 
 h2 {
-  width: 300px;
+  width: 500px;
   border: 15px solid rgb(142, 15, 15);
   padding: 50px;
   margin: 20px;
   font-size: 24px;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
-.git {
-  align-items: flex-end;
-  color: black;
-  background-color: antiquewhite;
-}
+footer{}
