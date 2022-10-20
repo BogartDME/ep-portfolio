@@ -1,5 +1,6 @@
 :root {
   --red: rgb(142, 15, 15);
+  --grey: dimgrey;
 }
 
 title {
@@ -11,8 +12,8 @@ title {
   text-align: end;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 40px;
-  font-style: normal;
+  font-size: 36px;
+  font-style: none;
   font-weight: bold;
   text-transform: normal;
   letter-spacing: normal;
@@ -31,8 +32,8 @@ title {
 }
 
 .header {
-  color: dimgrey;
-  background-color: dimgrey;
+  color: var(--grey);
+  background-color: var(--grey);
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
@@ -71,25 +72,45 @@ body {
   font-weight: normal;
   text-transform: normal;
   letter-spacing: normal;
+  flex-wrap: wrap;
+  display: flexbox;
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 
-.row {
-  flex-wrap: wrap;
+  .row {
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    width: 500px;
+    border: 15px solid rgb(142, 15, 15);
+    padding: 50px;
+    margin: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  /*  
+  .bottom {
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: fit-content;
+  }
+  */
+
+  .footer {
+    flex-wrap: wrap;
+    position: absolute;
+    padding: auto;
+    margin: 6px;
+    bottom: 0;
+    right: 0;
+    max-width: fit-content;
+  }
 }
-
-h2 {
-  width: 500px;
-  border: 15px solid rgb(142, 15, 15);
-  padding: 50px;
-  margin: 20px;
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-}
-
-footer{}
