@@ -1,6 +1,7 @@
 :root {
   --red: rgb(142, 15, 15);
   --grey: dimgrey;
+  --gold: goldenrod;
 }
 
 title {
@@ -29,6 +30,10 @@ title {
 }
 
 .hero {
+  flex-wrap: wrap;
+  width: max-content;
+  height: 200px;
+  border: 15px solid var(--grey);
 }
 
 .header {
@@ -40,14 +45,14 @@ title {
 }
 
 h1 {
-  background-color: rgb(142, 15, 15);
+  background-color: var(--red);
   height: 1in;
   width: 300px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-size: 40px;
-  border: 5px solid goldenrod;
+  border: 5px solid var(--gold);
   border-left: 0;
 }
 
@@ -103,6 +108,18 @@ h2 {
     max-width: fit-content;
   }
   */
+
+.aside {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 250px;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid var(--gold);
+  float: right;
+  font-size: 20px;
+
+}
 
 .footer {
   flex-wrap: wrap;
