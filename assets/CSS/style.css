@@ -4,10 +4,8 @@
   --gold: goldenrod;
 }
 
-title {
-  color: rgb(13, 17, 17);
-  background-color: blue;
-}
+
+
 
 .nav {
   text-align: end;
@@ -17,24 +15,32 @@ title {
   font-style: none;
   font-weight: bold;
   text-transform: normal;
-  letter-spacing: normal;
   line-height: 1.3em;
   padding-right: 0px;
   flex-wrap: wrap;
+  
 }
 
 .nav-link {
   list-style: none;
   margin: 12px;
   flex-wrap: wrap;
+  color: black;
+}
+a {
+  color: black;
 }
 
 .hero {
-  flex-wrap: wrap;
-  width: max-content;
-  height: 200px;
-  border: 15px solid var(--grey);
+  
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 25px;
+  background-size: cover; 
+  background-position: center;
+  background: url("/assets/images/marvelheroes.jpeg");
 }
+
 
 .header {
   color: var(--grey);
@@ -60,8 +66,8 @@ ul {
   align-items: center;
   display: inline-flex;
 }
-.nav-link {
-  color: rgb(13, 17, 17);
+/* .nav-link {
+  color: rgb(13, 17, 17); */
 }
 
 body {
