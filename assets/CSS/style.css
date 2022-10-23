@@ -92,22 +92,36 @@ body {
   padding: 5px;
 }
 
-.xp{
-
-  border: 5px solid var(--gold); 
-}
-
-.row {
+.container {
   float: right;
   flex-wrap: wrap;
   background-color: var(--blue);
   display: inline-flex;
   justify-content: space-between;
   flex-direction: row;
-  border: 15px solid var(--red));
+  border: 15px solid var(--gold);
+  padding: 10;
+  margin: 5px;
+  width: 1000px;
+  height: 320px;
+
+}
+
+
+.card{
+
+  border: 5px solid var(--red); 
+  display: block;
+  float: right;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
   padding: 10;
   margin: 5px;
 }
+
+
+
 
 h2 {
   width: 500px;
@@ -119,8 +133,8 @@ h2 {
 }
 
 h3 {
-width: 30%;
-height: 20px;
+font-size: 24px;
+font-weight: bolder;
 
 }
 /*  
@@ -145,12 +159,22 @@ height: 20px;
 
 }
 
+.footer-container{
+
+
+}
+
 .footer {
   flex-wrap: wrap;
   position: absolute;
   padding: auto;
   margin: 6px;
   bottom: 0;
-  right: 0;
+  right: 400px;
   max-width: fit-content;
+  width: 600px;
+  border: 25px solid var(--red);
+  justify-content: center;
 }
+
+
