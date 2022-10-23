@@ -98,6 +98,7 @@ body {
 }
 
 .row {
+  float: right;
   flex-wrap: wrap;
   background-color: var(--blue);
   display: inline-flex;
@@ -106,6 +107,7 @@ body {
   border: 15px solid var(--red));
   padding: 10;
   margin: 5px;
+}
 
 h2 {
   width: 500px;
