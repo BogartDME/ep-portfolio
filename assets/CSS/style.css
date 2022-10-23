@@ -92,15 +92,20 @@ body {
   padding: 5px;
 }
 
+.xp{
+
+  border: 5px solid var(--gold); 
+}
+
 .row {
   flex-wrap: wrap;
   background-color: var(--blue);
   display: inline-flex;
   justify-content: space-between;
   flex-direction: row;
-  border: var(--red solid 15px);
-  /* border: 15px solid var(--red)); Not working for sopme reason */
-}
+  border: 15px solid var(--red));
+  padding: 10;
+  margin: 5px;
 
 h2 {
   width: 500px;
