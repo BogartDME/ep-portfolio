@@ -134,17 +134,26 @@ font-weight: bolder;
 }
 
 .contact-me {
-  display: flex;
+  display: block;
   width: 100%;
-  padding: 100px;
+  padding: 150px 50px 0px 0px;
   margin:auto;
   border: 15px solid var(--gold);
   font-size: 20px;
+  text-align: center;
+  align-content: center;
 }
-contact-me p {
+
+#batman{
+  float: left;
+  align-items: center;
+}
+
+.contact-me p {
   font-size: 40px;
   font-weight: bold;
-  color:aqua;
+  display: block;
+  color:black;
 }
 
 footer {
@@ -159,7 +168,8 @@ footer {
 }
 
 h4 {
-  font-size: 40px;
+  font-size: 60px;
+  display: block;
 }
 
 h5 {
