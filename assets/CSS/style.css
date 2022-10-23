@@ -1,6 +1,6 @@
 :root {
   --red: rgb(142, 15, 15);
-  --grey: dimgrey;
+  --blue: rgb(28, 58, 146);
   --gold: goldenrod;
 }
 
@@ -28,17 +28,9 @@
   color: black;
 }
 a {
-  color: black;
+  color: var(--gold);
 }
 
-/* .hero-images{
-  background-image: url("../images/marvelheroes.jpeg")
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-} */
 .hero {
   background: url("../images/marvelheroes.jpeg");
   width: 100%;
@@ -50,8 +42,8 @@ a {
 
 
 .header {
-  color: var(--grey);
-  background-color: var(--grey);
+  color:var(--gold);
+  background-color: var(--blue);
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
@@ -99,18 +91,30 @@ body {
   width: 33.33%;
   padding: 5px;
 }
+
 .row {
   flex-wrap: wrap;
+  background-color: var(--blue);
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: var(--red solid 15px);
+  /* border: 15px solid var(--red)); Not working for sopme reason */
 }
 
 h2 {
   width: 500px;
-  border: 15px solid rgb(142, 15, 15);
   padding: 50px;
   margin: 20px;
   font-size: 24px;
   display: flex;
   justify-content: center;
+}
+
+h3 {
+width: 30%;
+height: 20px;
+
 }
 /*  
   .bottom {
@@ -129,7 +133,7 @@ h2 {
   padding: 50px;
   margin: 20px;
   border: 15px solid var(--gold);
-  float: right;
+  float:left;
   font-size: 20px;
 
 }
