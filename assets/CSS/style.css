@@ -134,14 +134,15 @@ font-weight: bolder;
 }
 
 .contact-me {
-  display: block;
+  display: flex;
   width: 100%;
-  padding: 150px 50px 0px 0px;
+  padding: 100px 50px 0px 0px;
   margin:auto;
   border: 15px solid var(--gold);
   font-size: 20px;
   text-align: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 #batman{
@@ -154,6 +155,8 @@ font-weight: bolder;
   font-weight: bold;
   display: block;
   color:black;
+  flex-wrap: wrap;
+
 }
 
 footer {
