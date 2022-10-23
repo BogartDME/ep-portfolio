@@ -159,22 +159,22 @@ font-weight: bolder;
 
 }
 
-.footer-container{
-
-
-}
 
 .footer {
-  flex-wrap: wrap;
-  position: absolute;
-  padding: auto;
-  margin: 6px;
-  bottom: 0;
-  right: 400px;
-  max-width: fit-content;
-  width: 600px;
+  padding: 30px;
+  clear: both;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 25px solid var(--red);
+  font-size: 28px;
+  font-weight: bold;
   justify-content: center;
+  padding-left: 500px;
 }
 
+footer h2 {
 
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+}
