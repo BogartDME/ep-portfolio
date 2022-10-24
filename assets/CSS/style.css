@@ -206,5 +206,12 @@ footer p {
 
 @media screen and (max-width: 1024px) and (min-width: 320px) {
   
+  .about-me {
+
+    display:inline-block;
+  }
   
+  .card{
+    max-width: 100vw;
+  }
 }

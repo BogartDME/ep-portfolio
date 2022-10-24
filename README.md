@@ -8,7 +8,8 @@ This is my portfolio, it contains links to my work, my github, resume, social me
 - What problem does it solve?
 - What did you learn?
 
-
+## Visuals
+![screenshot of my portfolio]
 
 ## License
 
