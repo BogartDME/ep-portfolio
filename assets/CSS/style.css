@@ -4,6 +4,10 @@ padding: 0;
 margin: 0;
 }
 
+main{
+  display: block;
+}
+
 :root {
   --red: rgb(142, 15, 15);
   --blue: rgb(28, 58, 146);
@@ -21,6 +25,7 @@ margin: 0;
   line-height: 1.3em;
   padding-right: 0px;
   flex-wrap: wrap;
+
   }
 
 .nav-link {
@@ -49,6 +54,7 @@ a {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 h1 {
@@ -73,6 +79,7 @@ body {
   background-color: rgb(255, 255, 255);
   padding: 0;
   margin: 0%;
+  border: 5px;
   text-align: start;
   text-decoration: none;
   font-family: Cambria, serif;
@@ -83,6 +90,8 @@ body {
   letter-spacing: normal;
   flex-wrap: wrap;
   display: flexbox;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .about-me {
@@ -93,6 +102,11 @@ body {
   border: 15px solid var(--red);
   font-size: 20px;
   }
+
+#about-me{
+  font-size: 30px;
+  font-weight: bolder;
+}
 
 .container {
   flex-wrap: wrap;
@@ -171,7 +185,7 @@ footer {
   font-size: 28px;
   justify-content: center;
   height: 200px;
-  width: 1000px;
+  width: 100%;
   justify-content: space-evenly;
   
 }
@@ -189,3 +203,8 @@ text-align: center;
 footer p {
   font-size: 25px;
 } 
+
+@media screen and (max-width: 1024px) and (min-width: 320px) {
+  
+  
+}
