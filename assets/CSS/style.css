@@ -118,7 +118,6 @@ body {
   padding: 30px;
   margin: 5px;
   width: 100%;
-  height: 100%; 
   flex: .5 0 0;
 }
 
@@ -129,7 +128,7 @@ body {
   flex-wrap: wrap;
   text-align: center;
   flex-direction: row;
-  padding: 10;
+  padding: 10px;
   margin: 5px;
   height: 100%;
 }
@@ -137,10 +136,6 @@ body {
 .selfie {
   margin-right: 25px;
 }
-
-#refractoring{
-  width: 40%;  
-  }
 
 h3 {
 font-size: 24px;
@@ -209,9 +204,36 @@ footer p {
   .about-me {
 
     display:inline-block;
+    padding: 0;
+
   }
   
-  .card{
-    max-width: 100vw;
+  .card img {
+  width: 100%;
+  }
+
+  .contact-me p {
+  padding-left: 15%;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  }
+  
+  #title{
+    font-size: 25px;
+  }
+
+  #batman {
+    margin-left: 50px;
+  }
+
+  h4{
+
+    font-size: 24px;
+  }
+
+  .footer p {
+
+    font-size: 20px;
   }
 }
