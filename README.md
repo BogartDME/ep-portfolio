@@ -13,7 +13,7 @@ My github repo: https://github.com/BogartDME/ep-portfolio
 
 ## Visuals
 
-![screenshot of my portfolio](./assets/images/Screen%20Shot%202022-10-23%20at%2010.06.39%20PM.png) 
+![Alt full site](assets/images/edfullsite1.png)
 
 ## License
 
